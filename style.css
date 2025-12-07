@@ -23,7 +23,6 @@ body{
     padding: 0.5rem;
     width: 80%;
     height: auto;
-    min-height: 550px;
     max-width: 1200px;
     min-width: 500px;
     border-radius: 20px;
@@ -47,7 +46,7 @@ body{
 .header h1{
     padding: 0.5rem;
 }
-ul{
+.header ul{
     padding: 0.5rem ;
     list-style-type: none;
     display: flex;
@@ -65,4 +64,145 @@ a:hover{
     color: black;
     background-color: aqua;
     
+}
+.see{
+    margin: 1rem;
+}
+.see a{
+    background-color: blue;
+    margin: 1rem;
+    
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    
+    gap: 0.5rem;
+}
+.hero h1, h2{
+    padding: 0.5rem;
+    text-align: center;
+}
+.hero p{
+    padding: 1rem;
+}
+.hero a{
+    background-color: blue;
+    margin: 1rem;
+    
+}
+.hero a:hover{
+    background-color: aqua;
+    color: black;
+}
+ul{
+    padding: 0.5rem 0 1rem 3rem;
+}
+.nowrap{
+    white-space: nowrap;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.image a{
+    display: block;
+    margin: 1rem;
+}
+
+/*  skills section  */
+
+.space {
+  padding-top: 0.5rem;
+}
+progress {
+  width: 70%; 
+  height: 15px; 
+}
+
+/*  projects section  */
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    border-radius: 20px;
+    padding: 0.5rem;
+
+}
+
+
+.list a{
+    color: black;
+}
+.list a:hover{
+    background-color: #13115b;
+}
+.list p{
+    text-align: center;
+}
+
+/*  contact me section  */
+
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    max-width:750px;
+}
+
+
+.contactform{
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background-color: #13106b;
+    width: 80%;
+    height: auto;
+}
+.text {
+    display: block;
+    gap: 2rem;
+}
+.social a{
+    display: block;
+}
+.btn{
+    background-color: blue;
+    padding: 0.5rem;
+    border-radius: 12px;
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+input{
+    background-color: #13106b;
+    border-radius: 12px;
+    padding: 0.5rem;
+
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+textarea::placeholder{
+    color:white;
+}
+textarea{
+    background-color: #13106b;
+    border-radius: 12px;
+    padding: 0.5rem;
 }
